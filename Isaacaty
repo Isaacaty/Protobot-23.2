@@ -260,9 +260,41 @@ message: {
 "productImageCount": 999
 },                          
 "businessOwnerJid": `0@s.whatsapp.net`
-}}}, caption: `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
+}}}, caption: `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, ✦ . 　⁺　 . ⁺ 
+ᴡᴇʟᴄᴏᴍᴇ
+    • 
+⋱⋱⋱︾︾︾︾︾︾︾⋰⋰⋰
+  ❀•°•═════ஓ๑♡
+
+＊*•̩̩͙✩•̩̩͙*Le da una flor*˚*•̩̩͙✩•̩̩͙*˚＊
+                       🌹
+*Bienvenid@s si sois nuev@s les recomiendo que lean las normas :3*
+*Para evitar no ser baneado...*
+*Solo disfrute el grupo y gracias por su atención..*
+                             ╱|、
+                          (˚ˎ 。7  
+                           |、˜〵          
+                          じしˍ,)ノ
+_☁︎ˊ˗  ╰❄️🐾╯→ʚ•
+✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, contextInfo: { mentionedJid: [num] }})
 } catch {
-Protobot.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
+Protobot.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, ✦ . 　⁺　 . ⁺ 
+ᴡᴇʟᴄᴏᴍᴇ
+    • 
+⋱⋱⋱︾︾︾︾︾︾︾⋰⋰⋰
+  ❀•°•═════ஓ๑♡
+
+＊*•̩̩͙✩•̩̩͙*Le da una flor*˚*•̩̩͙✩•̩̩͙*˚＊
+                       🌹
+*Bienvenid@s si sois nuev@s les recomiendo que lean las normas :3*
+*Para evitar no ser baneado...*
+*Solo disfrute el grupo y gracias por su atención..*
+                             ╱|、
+                          (˚ˎ 。7  
+                           |、˜〵          
+                          じしˍ,)ノ
+_☁︎ˊ˗  ╰❄️🐾╯→ʚ•
+✨*_\n\n_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉\n\nSon las *${jm}* del *${calender}*\n\n${mdata.desc}`, MessageType.text)
 }
 //leave
 }  else if (anu.action == 'remove') {
